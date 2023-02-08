@@ -1,0 +1,12 @@
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\bin\Debug\net7.0\Todo.Domain.Infra.deps.json
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\bin\Debug\net7.0\Todo.Domain.Infra.dll
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\bin\Debug\net7.0\Todo.Domain.Infra.pdb
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\Todo.Domain.Infra.csproj.AssemblyReference.cache
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\Todo.Domain.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\Todo.Domain.Infra.AssemblyInfoInputs.cache
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\Todo.Domain.Infra.AssemblyInfo.cs
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\Todo.Domain.Infra.csproj.CoreCompileInputs.cache
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\Todo.Domain.Infra.dll
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\refint\Todo.Domain.Infra.dll
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\Todo.Domain.Infra.pdb
+C:\Users\itzsa\OneDrive\Área de Trabalho\Todo\Todo.Domain.infra\obj\Debug\net7.0\ref\Todo.Domain.Infra.dll
