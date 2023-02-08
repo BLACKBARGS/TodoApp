@@ -15,9 +15,9 @@ public class CreateTodoCommand : Notifiable<Notification>, ICommand
         Date = date;
     }
 
-    public string? Title { get; set; }
-    public string? User { get; set; }
-    public DateTime Date { get; set; }
+    public string? Title {get; set;}
+    public string? User {get; set;}
+    public DateTime Date {get; set;}
 
     public void Validate()
         {
@@ -29,8 +29,5 @@ public class CreateTodoCommand : Notifiable<Notification>, ICommand
             );
         }
 
-    bool ICommand.Validate()
-    {
-        throw new NotImplementedException();
-    }
+    bool ICommand.Validate() => throw new NotImplementedException();
 }

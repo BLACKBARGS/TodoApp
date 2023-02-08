@@ -1,14 +1,6 @@
-using Flunt.Validations;
-using Flunt.Notifications;
-
 namespace Todo.Domain.Commands.Contracts;
 
-public interface ICommand : IValidatable<Notification>
+public interface ICommand 
 {
     bool Validate();
-    
-
-}
-public interface IValidatable<T>
-{
 }

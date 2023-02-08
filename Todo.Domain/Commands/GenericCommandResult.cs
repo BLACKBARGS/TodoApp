@@ -13,7 +13,7 @@ public class GenericCommandResult : ICommandResult
         Data = data;
     }
 
-    public bool Sucess { get; set; }
-    public string? Message { get; set; }
-    public object? Data { get; set; }
+    public bool Sucess {get; set;}
+    public string? Message {get; set;}
+    public object? Data {get; set;}
 }

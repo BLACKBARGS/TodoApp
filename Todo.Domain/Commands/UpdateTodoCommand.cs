@@ -6,7 +6,7 @@ namespace Todo.Domain.Commands;
 
 public class UpdateTodoCommand : Notifiable<Notification>, ICommand
 {
-    public UpdateTodoCommand() { }
+    public UpdateTodoCommand() {}
 
     public UpdateTodoCommand(Guid id, string title, string user)
     {
@@ -15,9 +15,9 @@ public class UpdateTodoCommand : Notifiable<Notification>, ICommand
         User = user;
     }
 
-    public Guid Id { get; set; }
-    public string? Title { get; set; }
-    public string? User { get; set; }
+    public Guid Id {get; set;}
+    public string? Title {get; set;}
+    public string? User {get; set;}
 
     public void Validate()
     {
@@ -29,8 +29,5 @@ public class UpdateTodoCommand : Notifiable<Notification>, ICommand
         );
     }
 
-    bool ICommand.Validate()
-    {
-        throw new NotImplementedException();
-    }
+    bool ICommand.Validate() => throw new NotImplementedException();
 }

@@ -14,8 +14,8 @@ public class MarkTodoAsUndoneCommand : Notifiable<Notification>, ICommand
         User = user;
     }
 
-    public Guid Id { get; set; }
-    public string? User { get; set; }
+    public Guid Id {get; set;}
+    public string? User {get; set;}
 
     public void Validate()
     {
@@ -26,8 +26,5 @@ public class MarkTodoAsUndoneCommand : Notifiable<Notification>, ICommand
         );
     }
 
-    bool ICommand.Validate()
-    {
-        throw new NotImplementedException();
-    }
+    bool ICommand.Validate() => throw new NotImplementedException();
 }

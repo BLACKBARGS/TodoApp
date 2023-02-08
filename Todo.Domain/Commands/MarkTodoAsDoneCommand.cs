@@ -6,7 +6,7 @@ namespace Todo.Domain.Commands;
 
 public class MarkTodoAsDoneCommand : Notifiable<Notification>, ICommand
 {
-    public MarkTodoAsDoneCommand() { }
+    public MarkTodoAsDoneCommand() {}
 
     public MarkTodoAsDoneCommand(Guid id, string user)
     {
@@ -14,8 +14,8 @@ public class MarkTodoAsDoneCommand : Notifiable<Notification>, ICommand
         User = user;
     }
 
-    public Guid Id { get; set; }
-    public string? User { get; set; }
+    public Guid Id {get; set;}
+    public string? User {get; set;}
 
     public void Validate()
     {
@@ -26,8 +26,5 @@ public class MarkTodoAsDoneCommand : Notifiable<Notification>, ICommand
         );
     }
 
-    bool ICommand.Validate()
-    {
-        throw new NotImplementedException();
-    }
+    bool ICommand.Validate() => throw new NotImplementedException();   
 }
