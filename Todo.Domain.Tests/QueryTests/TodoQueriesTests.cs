@@ -13,9 +13,9 @@ public class TodoQueryTests
         _items = new List<TodoItem>();
         _items.Add(new TodoItem("Tarefa 1", "usuarioA", DateTime.Now));
         _items.Add(new TodoItem("Tarefa 2", "usuarioA", DateTime.Now));
-        _items.Add(new TodoItem("Tarefa 3", "andrebaltieri", DateTime.Now));
+        _items.Add(new TodoItem("Tarefa 3", "blackbargsgo", DateTime.Now));
         _items.Add(new TodoItem("Tarefa 4", "usuarioA", DateTime.Now));
-        _items.Add(new TodoItem("Tarefa 5", "andrebaltieri", DateTime.Now));
+        _items.Add(new TodoItem("Tarefa 5", "blackbargsgo", DateTime.Now));
     }
 
     [TestMethod]
