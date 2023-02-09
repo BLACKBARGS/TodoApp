@@ -19,9 +19,9 @@ public class TodoQueryTests
     }
 
     [TestMethod]
-    public void Dada_a_consulta_deve_retornar_tarefas_apenas_do_usuario_andrebaltieri()
+    public void Dada_a_consulta_deve_retornar_tarefas_apenas_do_usuario_blackbargsgo()
     {
-        var result = _items.AsQueryable().Where(TodoQueries.GetAll("andrebaltieri"));
+        var result = _items.AsQueryable().Where(TodoQueries.GetAll("blackbargsgo"));
         Assert.AreEqual(2, result.Count());
     }
 }
